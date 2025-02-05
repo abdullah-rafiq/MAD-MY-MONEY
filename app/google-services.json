@@ -1,13 +1,11 @@
 {
   "project_info": {
-    "project_number": "323408101967",
-    "project_id": "mymoney-aa331",
-    "storage_bucket": "mymoney-aa331.firebasestorage.app"
+    
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:323408101967:android:a16d1157301a4eb0e9203a",
+        "mobilesdk_app_id": "]",
         "android_client_info": {
           "package_name": "com.example.mymoney"
         }
@@ -15,7 +13,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAaYVdxd_7zhanVXKRcebHIkocN-1wazF0"
+        
         }
       ],
       "services": {
