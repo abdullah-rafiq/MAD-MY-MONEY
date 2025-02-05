@@ -126,7 +126,7 @@
             android:textDirection="ltr"
             android:elevation="8dp"
             android:textSize="18sp"
-            tools:ignore="VisualLintBounds" />
+            tools:ignore="RtlHardcoded,VisualLintBounds" />
     </LinearLayout>
 
     <Button
