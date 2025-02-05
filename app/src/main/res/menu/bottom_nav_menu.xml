@@ -29,6 +29,6 @@
     <item
         android:id="@+id/nav_categories"
         android:icon="@drawable/categories"
-        android:title="@string/categories"
+        android:title="@string/Gemnini"
         app:showAsAction="ifRoom" />
 </menu>

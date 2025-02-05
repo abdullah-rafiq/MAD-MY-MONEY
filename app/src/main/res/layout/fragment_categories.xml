@@ -5,8 +5,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="16dp">
-
-    <!-- Toolbar (Optional) -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -16,9 +14,10 @@
         android:padding="16dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:title="My Money"
-        app:titleTextColor="@android:color/white"/>
+        app:titleTextColor="@android:color/black"
+        app:navigationIcon="@drawable/left"
+        app:layout_scrollFlags="scroll|enterAlways"/>
 
-    <!-- ScrollView to hold messages -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -39,14 +38,15 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="8dp"
-        android:background="@color/white">
+        android:background="@color/primaryColor">
 
         <EditText
             android:id="@+id/eTPrompt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Type a message..."
+            android:autofillHints=""
+            android:hint="@string/type_a_message"
             android:inputType="text"
             android:background="@drawable/chat_input_bg"
             android:padding="12dp"
@@ -58,7 +58,7 @@
             android:layout_height="48dp"
             android:layout_marginStart="8dp"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="Send Message"
+            android:contentDescription="@string/send_message"
             android:src="@drawable/ic_send" />
     </LinearLayout>
 

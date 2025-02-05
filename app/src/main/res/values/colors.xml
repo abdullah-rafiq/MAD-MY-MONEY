@@ -12,5 +12,13 @@
     <color name="black_overlay">#66000000</color>
     <color name="gray">#808080</color>
 
-
+    <color name="primaryColor">#fffde7</color> <!-- Yellow for the header -->
+    <color name="primaryTextColor">#2C2C2C</color> <!-- Dark gray for texts -->
+    <color name="secondaryTextColor">#4D4D4D</color> <!-- Lighter gray for subtext -->
+    <color name="expenseColor">#FF4D4D</color> <!-- Red for expense values -->
+    <color name="incomeColor">#00B300</color> <!-- Green for income values -->
+    <color name="backgroundColor">#FFFBF2</color> <!-- Light yellow for background -->
+    <color name="buttonColor">#E8E8E8</color> <!-- Light gray for buttons -->
+    <color name="accentColor">#9C27B0</color> <!-- Purple for accents (e.g., icons) -->
+    
 </resources>

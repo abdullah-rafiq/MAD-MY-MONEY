@@ -40,7 +40,9 @@
     <string name="type">Type</string>
     <string name="amount">Amount</string>
     <string name="Enter_Amount">Enter Amount</string>
+    <string name="amount_format">$%.2f</string>
 
+    <string name="no_description">No Description Available</string>
     <string name="create_account">Create Account</string>
     <string name="create_account_description">Create an account so you can\n explore all the existing jobs</string>
     <string name="name">Name</string>
@@ -72,6 +74,10 @@
     <string name="drawer_open">Open Navigation Drawer</string>
     <string name="drawer_close">Close Navigation Drawer</string>
     <string name="total">Total</string>
-    <string name="MAPS_API_KEY">AIzaSyBNZ14Hol8Y61hI5ykjTLHb9c1MmZq7Qmc</string>
+    <string name="MAPS_API_KEY">AIzaSyCsnPRIRJaYPHC2USiWZa9we8pUvT5Dcgk</string>
+    <string name="Gemini_API_Key">AIzaSyBHYyZXTHjrfC2_bXsOsN4qveDZ8VzAcfg</string>
+    <string name="Gemnini">Gemnini AI</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="send_message">Send Message</string>
 
 </resources>

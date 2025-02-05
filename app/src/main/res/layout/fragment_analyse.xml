@@ -5,7 +5,7 @@
     android:id="@+id/fragment_analyse"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/primaryColor"
     tools:context=".AnalyseFragment">
 
     <!-- Main content inside a ConstraintLayout -->
@@ -19,15 +19,17 @@
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
             android:elevation="4dp"
+            android:paddingStart="30dp"
             android:padding="20dp"
             android:paddingTop="50dp"
+            android:paddingEnd="30dp"
             android:gravity="center"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:title="Analyse"
-            app:titleTextColor="@android:color/white">
+            app:titleTextColor="@android:color/black">
 
             <!-- Drawer icon (Hamburger Icon) for opening the drawer -->
             <ImageButton
@@ -35,6 +37,7 @@
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="10dp"
+                app:tint="@color/black"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:contentDescription="@string/drawer_icon"
                 android:src="@drawable/ic_menu"
@@ -49,6 +52,7 @@
             android:orientation="horizontal"
             android:padding="8dp"
             android:gravity="center"
+            android:backgroundTint="@color/primaryColor"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -101,6 +105,7 @@
             android:orientation="horizontal"
             android:padding="8dp"
             android:paddingBottom="0dp"
+            android:backgroundTint="@color/primaryColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -210,6 +215,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:layout_marginTop="90dp"
+            android:backgroundTint="@color/primaryColor"
             app:layout_constraintTop_toBottomOf="@id/linearLayout2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
@@ -257,6 +263,7 @@
             android:layout_marginTop="90dp"
             android:layout_marginEnd="29dp"
             android:layout_marginBottom="32dp"
+            android:backgroundTint="@color/primaryColor"
             android:clickable="true"
             android:contentDescription="@string/input_button"
             android:focusable="true"
@@ -277,5 +284,5 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/drawer_menu"
-        android:background="@color/white" />
+        android:background="@color/primaryColor" />
 </androidx.drawerlayout.widget.DrawerLayout>
